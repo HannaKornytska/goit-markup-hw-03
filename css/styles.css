@@ -21,16 +21,23 @@ body {
 }
 
 .box {
-    outline: 2px solid tomato;
-    margin-bottom: 72px;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
 }
+
 .container {
+    outline: 2px solid tomato;
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 0;
+    padding-bottom: 72px;
+    
 }
+    
 /* Скидання маркеру списку */
 .list {
     list-style:none ;
@@ -106,10 +113,20 @@ body {
 .site-auth .phone:focus {
     color: var(--color-hover);
 }
+.site-auth {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 /* hero */
 .section-hero {
     background-color: var(--color-second-text);
+    margin: 0;
+    
+   
+    
+    
+    
 }
 .section-title {
     color: var(--background-white-color);
@@ -119,8 +136,14 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         
+
+        margin-bottom: 48px;
+        margin-top: 0;
+        
         
 }
+
+
 .button-primary {
     background-color: var(--color-accent);
     color: var(--background-white-color);
@@ -130,13 +153,15 @@ body {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
-            text-align: center;
             border-color: var(--color-accent);
+           
+            text-align: center;
 
             border-radius: 4px;
             padding: 16px 32px;
             min-width: 169px;
             min-height: 56px;
+           
 }
 
 .button-primary:hover,
@@ -154,7 +179,17 @@ body {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        margin: 0;
+        padding-bottom: 72px;
 }
+
+.component-title{
+    margin: 0;
+}
+.items {
+    margin: 0;
+}
+
 .section-staff-name,
 .components-item {
     color:var(--color-second-text) ;
@@ -164,7 +199,11 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-top: 0;
 
+}
+.section-list-staff {
+    margin:  0;
 }
 
 .section-staff-block
