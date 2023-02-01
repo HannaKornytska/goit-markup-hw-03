@@ -20,22 +20,13 @@ body {
     
 }
 
-.box {
-    width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0; 
-}
 
 .container {
     outline: 2px solid tomato;
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 0;
-    padding-top: 72px;
+    max-width: 1158px;
+    margin: 0, auto;
+    padding: 0, 15px;
+   
     
 }
     
@@ -67,13 +58,6 @@ body {
 .accent  {
     color:var(--color-accent);
    
-}
-.header .container {
-   margin-top: 0;
-   margin-bottom: 0;
-   padding-top: 0;
-   padding-bottom: 0;
-    
 }
 
 
@@ -140,7 +124,6 @@ body {
 /* hero */
 .section-hero {
     background-color: var(--color-second-text);
-    margin: 0;
 }
     
 
@@ -151,12 +134,7 @@ body {
         line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
-        
-
-        margin-bottom: 48px;
-        margin-top: 188px;
-        
-        
+        text-transform: capitalize; 
 }
 
 
@@ -172,7 +150,7 @@ body {
             border-color: var(--color-accent);
            
             text-align: center;
-            display: inline-block;
+            
             
             border-radius: 4px;
             padding: 16px 32px;
@@ -255,7 +233,7 @@ h1,h2,h3,p {
 
 ul {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 /* список кнопок */
@@ -276,6 +254,10 @@ ul {
 .button:focus {
     background-color:var(--color-hover);
     color:var(--background-white-color)
+}
+
+.container.button-list {
+    padding-top: 96px;
 }
 
 /* футер */
