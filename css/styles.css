@@ -20,15 +20,6 @@ body {
     
 }
 
-
-.container {
-    outline: 2px solid tomato;
-    max-width: 1158px;
-    margin: 0, auto;
-    padding: 0, 15px;
-   
-    
-}
     
 /* Скидання маркеру списку */
 .list {
@@ -53,6 +44,16 @@ body {
         clip-path: inset(50%);
         margin: -1px;
     }
+
+ .container {
+     outline: 2px solid tomato;
+     max-width: 1158px;
+     margin: 0, auto;
+     padding: 0, 15px;
+
+
+ }
+       
 /* навігація */
 
 .accent  {
@@ -72,9 +73,7 @@ body {
         text-transform: uppercase;
         
 }
-.nav-header {
-   padding-top: 24px;
-}
+
 
 .site-nav .nav-link  {
     color: var(--color-second-text);
@@ -96,7 +95,7 @@ body {
 .address {
     font-style: normal;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    
 
 }
  .letter,
@@ -124,6 +123,7 @@ body {
 /* hero */
 .section-hero {
     background-color: var(--color-second-text);
+    display: block;
 }
     
 
@@ -157,7 +157,7 @@ body {
             min-width: 169px;
             min-height: 56px;
          
-           margin-bottom: 188px;
+         
 }
 
 .button-primary:hover,
@@ -175,12 +175,12 @@ body {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-         padding-bottom: 72px;
+        
          
 }
 
 .section-second-title-team {
-    padding-top: 120px;
+    
     color:var(--color-second-text) ;
 
 
@@ -195,9 +195,8 @@ body {
 .component-title{
     margin: 0;
 }
-.items {
-    margin: 0;
-}
+
+
 
 .section-staff-name,
 .components-item {
@@ -208,6 +207,7 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        
         margin-top: 0;
         padding-bottom: 8px;
 
@@ -219,6 +219,7 @@ body {
 }
 .section-staff {
     background-color: var(--background-white-color);
+   
 }
 
 .section-desc {
@@ -269,12 +270,12 @@ ul {
 .footer .container {
 padding-bottom: 100px;
 }
-.container .logo{
-    margin-bottom: 16px;
+
+
+.footer-content 
+{
+padding: 100px, 1020px, 100px, 156px;
 }
-
-
-
 
 .accent-footer {
     color:var(--color-second-white) ;
