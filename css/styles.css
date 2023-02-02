@@ -50,6 +50,11 @@ ul {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* ----------------------------------------------------------------NEADER*/
 .header {
    border-bottom: 1px solid #E7E9FC;
@@ -131,8 +136,11 @@ justify-content:space-between;
 /* -------------------------------------------------------------------HERO */
 .section-hero {
     background-color: var(--color-second-text);
-    
-    
+      
+   }
+   .wrap-title{
+    padding-top: 188px;
+    padding-bottom: 188px;
    }
 .section-title {
     color: var(--background-white-color);
@@ -142,7 +150,8 @@ justify-content:space-between;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize; 
-        padding-top: 188px;
+        padding-bottom: 48px;
+        
         
 }
 /* ----------------------------------------------------------BUTTON PRIMARY */
@@ -163,9 +172,9 @@ justify-content:space-between;
             padding: 16px 32px;
             min-width: 169px;
             min-height: 56px; 
-           margin-left: auto;
-           margin-right: auto;
-            
+            margin-left: auto;
+            margin-right:auto ;
+        
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -177,7 +186,6 @@ justify-content:space-between;
     padding-top: 72px;
     padding-bottom: 72px;
 }
-
 .section-second-title {
     color:var(--color-second-text) ;
 
@@ -188,17 +196,14 @@ justify-content:space-between;
         text-align: center;
         padding-bottom: 72px;     
 }
-
 .component-title {
     display: flex;  
     margin: 0;
 }
-
 .component-title .team-list:not(:last-child){
     margin-right: 24px;
     
 }
-
 /* -----------------------------------------------------------OUR-TEAM */
 .items {
     display:flex;
@@ -233,30 +238,44 @@ justify-content:space-between;
         
         margin-top: 0;
         padding-bottom: 8px;
-        
         }
         
- 
-
 .section-staff-block
  {
     background-color:var(--color-second-white);
+    padding-bottom: 120px;
 }
 .section-staff {
     background-color: var(--background-white-color);  
     width:calc((1128px - 3*24px)/4) ;
-    
-
+    display: inline-block;
+    width: 264px;
+    height: 380px;
+}
+.card-list{
+    padding-top: 32px; 
+    padding-bottom: 32px;
+    text-align: center;
 }
 .section-desc {
-    letter-spacing: 0.02em;
-    
+    letter-spacing: 0.02em;   
 }
 .section-work {
     padding-bottom: 72px;
 }
-
-
+.section-portfolio{
+    padding-top: 96px;
+}
+.section-site{
+    display: flex;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 48px;
+}
+.item{
+    flex-basis: calc((100% - 2*48px) / 3);
+}
 /* -------------------------------------------------------------------BUTTON */
 .button {
     background-color: var(--color-second-white);
@@ -267,9 +286,12 @@ justify-content:space-between;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        
         text-align: center;
         letter-spacing: 0.04em;
+        border-radius: 4px;
+        border: 1px solid #E7E9FC;
+        padding:12px 24px;
+        width: auto;
 }
 .button:hover,
 .button:focus {
@@ -278,9 +300,12 @@ justify-content:space-between;
 }
 
 .button-list {
-    padding-top: 96px;
+   display: flex;
+   justify-content: center;
 }
-
+.button-list .second-button:not(:last-child){
+    margin-right: 24px;
+}
 /*--------------------------------------------------------------FOOTER */
 
 .footer {
